@@ -1,6 +1,6 @@
-# write a hello fuction that prints "hello world!"
+# write a hello fuction that prints "hello Walmart Data!"
 def hello():
-    print("hello,world!")
+    print("Hello,Wallmart data!")
 
 # invoke hello function
 hello()
