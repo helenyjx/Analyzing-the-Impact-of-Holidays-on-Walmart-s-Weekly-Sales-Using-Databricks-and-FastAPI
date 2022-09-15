@@ -18,3 +18,4 @@ def cli_query(query):
   #run the CLI
 if __name__ == "__main__":
     cli()
+
