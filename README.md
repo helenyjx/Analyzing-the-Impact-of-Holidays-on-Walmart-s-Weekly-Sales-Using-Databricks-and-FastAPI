@@ -15,13 +15,10 @@ Walmart, one of the leading retail stores in the US, it is also my favorite supe
 <img width="1064" alt="Screen Shot 2022-09-16 at 12 20 56 PM" src="https://user-images.githubusercontent.com/112274822/190724905-1fcf07c8-8764-4272-89f0-acd94733c324.png">
 
 ## Connect Codespace and Databricks
-We need to create four secrets for codespace depository by copying link from databricks (DATABRICKS_HOST, DATABRICKS_HTTP_PATH, DATABRICKS_SERVER_HOSTNAME and DATABRICKS_TOKEN)
+We need to create four secrets for codespace depository by copying link from databricks (DATABRICKS_HOST, DATABRICKS_HTTP_PATH, DATABRICKS_SERVER_HOSTNAME and DATABRICKS_TOKEN).
+After that, we need to check whether databricks and codespace has been connected by typing following code in terminal:
 
 <img width="926" alt="Screen Shot 2022-09-16 at 12 19 26 PM" src="https://user-images.githubusercontent.com/112274822/190724999-f68b0cc7-2f5f-4455-9150-ffa6f9b9a546.png">
-
-After that, we need to check whether databricks and codespace has been connected by typing following code in terminal.
-
-Then test the following code in Codespaces to check the connection.
 
 ## Function of hi_query_sql_db
 My sql query will return the weekly sales of Walmart according to weeks which have holidays or non-holidays. Once we call the querydb function, it shows the weekly sales that includes holidays when type 1, anor not include holidays when type 0. Also, it will sort the weekly sales by descending order, so that mangers can find the week which have relatively high sales quickly.
