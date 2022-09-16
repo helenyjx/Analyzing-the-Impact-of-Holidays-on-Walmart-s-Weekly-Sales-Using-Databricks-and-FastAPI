@@ -38,5 +38,4 @@ Then, if we type "/query" at the end of the url address, it will return the week
 
 <img width="1499" alt="Screen Shot 2022-09-16 at 3 53 30 PM" src="https://user-images.githubusercontent.com/112274822/190725216-f6b52b9f-5766-4e53-9da6-7cce3999b8e2.png">
 
-<img width="1499" alt="Screen Shot 2022-09-16 at 3 53 30 PM" src="https://user-images.githubusercontent.com/112274822/190725216-f6b52b9f-5766-4e53-9da6-7cce3999b8e2.png">
 
