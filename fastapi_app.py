@@ -6,21 +6,14 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello Databricks from Walmart!"}
-
-@app.get("/add/{num1}/{num2}")
-async def add(num1: int, num2: int):
-    """Add two numbers together"""
-
-    total = num1 + num2
-    return {"total": total}
+    return {"message": "Hello, welcome to Databricks from Walmart, lets's begin to research weekly sales from holidays and non-holidays!"}
 
 @app.get("/query")
 async def query():
-    """Execute a SQL query from Walmart dataset"""
+    """Execute a SQL query from Walmart database to search weekly sales of holidays and non-hoildays"""
 
     result = querydb()
-    return {"result": result}
+    return {"Walmart weekly sales": result}
 
 
 if __name__ == '__main__':

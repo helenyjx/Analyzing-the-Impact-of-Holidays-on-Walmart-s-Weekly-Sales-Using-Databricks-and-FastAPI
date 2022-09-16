@@ -6,14 +6,14 @@ from dblib.querydb import querydb
 #build a click group
 @click.group()
 def cli():
-    """A simple CLI to query a SQL from Walmart database"""
+    """A simple CLI to query a SQL from Walmart database to search weekly sales of holidays and non-hoildays"""
 
 #build a click command
 @cli.command()
-@click.option("--query", default="SELECT * FROM default.Walmart LIMIT 2", help="SQL query to execute")
-def cli_query(query):
-    """Execute a SQL query from Walmart database"""
-    querydb(query)
+@click.option("--holiday", default="1", help="Please type 0 for non-holidays, 1 for holidays to check weekly sales.")
+def cli_query(holiday):
+    """Execute a SQL query from Walmart database to search weekly sales of holidays and non-hoildays"""
+    querydb(holiday)
   
   #run the CLI
 if __name__ == "__main__":
