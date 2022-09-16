@@ -25,7 +25,7 @@ My sql query will return the weekly sales of Walmart according to weeks which ha
 <img width="804" alt="Screen Shot 2022-09-16 at 3 48 02 PM" src="https://user-images.githubusercontent.com/112274822/190725080-6732c08d-5bf1-4132-b98d-97a15ca578c3.png">
 
 ## Fastapi App for Web 
-Now, if we type the following code in terminal, and click "open in browser"
+Now, if we type the following code in terminal, and click "open in browser":
 
 <img width="651" alt="Screen Shot 2022-09-16 at 3 54 48 PM" src="https://user-images.githubusercontent.com/112274822/190725166-a56973c7-6008-4eae-ab5a-c75e05f677a6.png">
 <img width="469" alt="Screen Shot 2022-09-16 at 4 02 01 PM" src="https://user-images.githubusercontent.com/112274822/190724682-7a590678-b510-47dc-abed-c588a87c77bf.png">
@@ -37,3 +37,6 @@ After that, a new web page will come up and shows a sentence below:
 Then, if we type "/query" at the end of the url address, it will return the weekly sales for weeks with holidays automatically:
 
 <img width="1499" alt="Screen Shot 2022-09-16 at 3 53 30 PM" src="https://user-images.githubusercontent.com/112274822/190725216-f6b52b9f-5766-4e53-9da6-7cce3999b8e2.png">
+
+<img width="1499" alt="Screen Shot 2022-09-16 at 3 53 30 PM" src="https://user-images.githubusercontent.com/112274822/190725216-f6b52b9f-5766-4e53-9da6-7cce3999b8e2.png">
+
