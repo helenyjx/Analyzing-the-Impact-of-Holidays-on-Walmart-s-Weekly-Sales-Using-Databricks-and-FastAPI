@@ -2,11 +2,42 @@
 
 # Project-1-Jiaxin-Ying-
 This is a repository about my project 1.
-Demo Video Link:
+
+## Demo Video Link:
 https://teams.microsoft.com/l/message/19:9e5856d19b4f42eaa8d38f159d93a640@thread.tacv2/1663199207426?tenantId=cb72c54e-4a31-4d9e-b14a-1ea36dfac94c&groupId=428262e3-7a97-45de-8ed6-eb751b9cb87c&parentMessageId=1663199207426&teamName=IDS.706.01.F22&channelName=Week%203%20Demo_Project%201&createdTime=1663199207426&allowXTenantAccess=false
 
-Key Objectives of Project:
-I use Databricks to upload my dataset and connect it with VS Code by using a microservice(FastAPI) and command-line tool(click).
+## Key Objectives of Project:
+I use Databricks to upload my dataset and connect it with VS Code by using a microservice(FastAPI) and command-line tool(click). The goal of my project is showing Walmart weekly sales of holidays and non-holidays. It will help managers to check weekly sales based on holiday element. 
 
-Dataset Source:
-Walmart, one of the leading retail stores in the US, it is also my favorite supermarket since I was a kid. Therefore, for my project 1, I chose a dataset from Kaggle called Walmart, which is about 45 Walmart stores’ historical data that covers sales from 2010-02-05 to 2012-11-01.  My project is aimed at searching the main factors which affect its Weekly_Sales from multidimensional views. Specifically, some certain events and holidays will impact sales. Because in my dataset, these special days are Super Bowl, Labour Day, Thanksgiving, and Christmas. In the future, I want to summarize on each special day, the extent to which they affect sales, so that we can intuitively see which day has the largest sales and which day has the weakest impact on sales. Also, several economic factors including Fuel_Price, CPI, and Unemployment rate play important roles in influencing sales. Temperature should be considered as well on daily sales.
+## Dataset Source:
+Walmart, one of the leading retail stores in the US, it is also my favorite supermarket since I was a kid. Therefore, for my project 1, I chose a dataset from Kaggle called Walmart (https://www.kaggle.com/datasets/yasserh/walmart-dataset), which is about 45 Walmart stores’ historical data that covers sales from 2010-02-05 to 2012-11-01. There are seven main variables:Date, Weekly_Sales, Fuel_Price, CPI, Temperature, Holiday_Flag and Unemployment rate. My project will focus on exploring the effect of holidays on weekly sales for Walmart. After analyzing this data, managers could update or fix sales strategies according to the weekly sales in each week which has holidays or non-holidays.
+
+Screen Shot 2022-09-16 at 12.20.56 PM.png
+
+## Connect Codespace and Databricks
+We need to create four secrets for codespace depository by copying link from databricks (DATABRICKS_HOST, DATABRICKS_HTTP_PATH, DATABRICKS_SERVER_HOSTNAME and DATABRICKS_TOKEN)
+
+Screen Shot 2022-09-16 at 12.19.26 PM.png
+
+After that, we need to check whether databricks and codespace has been connected by typing following code in terminal.
+
+Then test the following code in Codespaces to check the connection.
+
+## Function of hi_query_sql_db
+My sql query will return the weekly sales of Walmart according to weeks which have holidays or non-holidays. Once we call the querydb function, it shows the weekly sales that includes holidays when type 1, anor not include holidays when type 0. Also, it will sort the weekly sales by descending order, so that mangers can find the week which have relatively high sales quickly.
+
+Screen Shot 2022-09-16 at 3.48.02 PM.png
+
+## Fastapi App for Web 
+Now, if we type the following code in terminal, and click "open in browser"
+
+Screen Shot 2022-09-16 at 4.02.01 PM.png
+
+After that, a new web page will come up and shows a sentence below: 
+
+Screen Shot 2022-09-16 at 3.54.48 PM.png
+Screen Shot 2022-09-16 at 3.57.24 PM.png
+
+Then, if we type "/query" at the end of the url address, it will return the weekly sales for weeks with holidays automatically:
+
+Screen Shot 2022-09-16 at 3.53.30 PM.png

@@ -10,7 +10,7 @@ def querydb(query="1"):
     ) as connection:
 
         with connection.cursor() as cursor:
-            cursor.execute("SELECT Weekly_Sales FROM walmart WHERE Holiday_Flag="+query+" ORDER BY Weekly_Sales DESC LIMIT 10")
+            cursor.execute("SELECT Weekly_Sales, Date FROM walmart WHERE Holiday_Flag="+query+" ORDER BY Weekly_Sales DESC LIMIT 10")
             result = cursor.fetchall()
 
         for row in result:
