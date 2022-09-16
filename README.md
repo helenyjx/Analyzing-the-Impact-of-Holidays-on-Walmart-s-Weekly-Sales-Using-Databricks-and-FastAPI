@@ -32,10 +32,10 @@ My sql query will return the weekly sales of Walmart according to weeks which ha
 Now, if we type the following code in terminal, and click "open in browser":
 
 <img width="651" alt="Screen Shot 2022-09-16 at 3 54 48 PM" src="https://user-images.githubusercontent.com/112274822/190725166-a56973c7-6008-4eae-ab5a-c75e05f677a6.png">
+<img width="469" alt="Screen Shot 2022-09-16 at 4 02 01 PM" src="https://user-images.githubusercontent.com/112274822/190724682-7a590678-b510-47dc-abed-c588a87c77bf.png">
 
 After that, a new web page will come up and shows a sentence below: 
 
-<img width="469" alt="Screen Shot 2022-09-16 at 4 02 01 PM" src="https://user-images.githubusercontent.com/112274822/190724682-7a590678-b510-47dc-abed-c588a87c77bf.png">
 <img width="1009" alt="Screen Shot 2022-09-16 at 3 57 24 PM" src="https://user-images.githubusercontent.com/112274822/190725170-e169bca1-745a-4244-83c1-027c2fbcc9ff.png">
 
 Then, if we type "/query" at the end of the url address, it will return the weekly sales for weeks with holidays automatically:
