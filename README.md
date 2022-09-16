@@ -31,7 +31,7 @@ Screen Shot 2022-09-16 at 3.48.02 PM.png
 ## Fastapi App for Web 
 Now, if we type the following code in terminal, and click "open in browser"
 
-Screen Shot 2022-09-16 at 4.02.01 PM.png
+<img width="469" alt="Screen Shot 2022-09-16 at 4 02 01 PM" src="https://user-images.githubusercontent.com/112274822/190724682-7a590678-b510-47dc-abed-c588a87c77bf.png">
 
 After that, a new web page will come up and shows a sentence below: 
 
