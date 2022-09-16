@@ -7,7 +7,7 @@ This is a repository about my project 1.
 https://teams.microsoft.com/l/message/19:9e5856d19b4f42eaa8d38f159d93a640@thread.tacv2/1663199207426?tenantId=cb72c54e-4a31-4d9e-b14a-1ea36dfac94c&groupId=428262e3-7a97-45de-8ed6-eb751b9cb87c&parentMessageId=1663199207426&teamName=IDS.706.01.F22&channelName=Week%203%20Demo_Project%201&createdTime=1663199207426&allowXTenantAccess=false
 
 ## Key Objectives of Project:
-I use Databricks to upload my dataset and connect it with VS Code by using a microservice(FastAPI) and command-line tool(click). The goal of my project is showing Walmart weekly sales of holidays and non-holidays. It will help managers to check weekly sales based on holiday element. 
+I use Databricks to upload my dataset and connect it with VS Code by using a microservice(FastAPI) and command-line tool(click). The goal of my project is showing Walmart weekly sales that includes holidays or non-holidays. It will help managers to check weekly sales based on holiday element. 
 
 ## Dataset Source:
 Walmart, one of the leading retail stores in the US, it is also my favorite supermarket since I was a kid. Therefore, for my project 1, I chose a dataset from Kaggle called Walmart (https://www.kaggle.com/datasets/yasserh/walmart-dataset), which is about 45 Walmart stores’ historical data that covers sales from 2010-02-05 to 2012-11-01. There are seven main variables:Date, Weekly_Sales, Fuel_Price, CPI, Temperature, Holiday_Flag and Unemployment rate. My project will focus on exploring the effect of holidays on weekly sales for Walmart. After analyzing this data, managers could update or fix sales strategies according to the weekly sales in each week which has holidays or non-holidays.
