@@ -4,7 +4,7 @@
 This is a repository about my project 1.
 
 ## Demo Video Link:
-https://teams.microsoft.com/l/message/19:9e5856d19b4f42eaa8d38f159d93a640@thread.tacv2/1663199207426?tenantId=cb72c54e-4a31-4d9e-b14a-1ea36dfac94c&groupId=428262e3-7a97-45de-8ed6-eb751b9cb87c&parentMessageId=1663199207426&teamName=IDS.706.01.F22&channelName=Week%203%20Demo_Project%201&createdTime=1663199207426&allowXTenantAccess=false
+https://prodduke.sharepoint.com/sites/IDS.721.01.Sp22/_layouts/15/stream.aspx?id=%2Fsites%2FIDS%2E721%2E01%2ESp22%2FShared%20Documents%2FWeek%203%20Demo%5FProject%201%2Fproject%201%20Jiaxin%20Ying%2Emp4
 
 ## Key Objectives of Project:
 I use Databricks to upload my dataset and connect it with VS Code by using a microservice(FastAPI) and command-line tool(click). The goal of my project is showing Walmart weekly sales that includes holidays or non-holidays. It will help managers to check weekly sales based on holiday element. 
