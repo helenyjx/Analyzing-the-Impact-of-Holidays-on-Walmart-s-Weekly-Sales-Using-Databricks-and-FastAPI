@@ -25,9 +25,9 @@ We need to create four secrets for codespace depository by copying link from dat
 ## Function of hi_query_sql_db
 My sql query will return the weekly sales of Walmart according to weeks which have holidays or non-holidays. Once we call the querydb function, it shows the weekly sales that includes holidays when type 1, anor not include holidays when type 0. Also, it will sort the weekly sales by descending order, so that mangers can find the week which have relatively high sales quickly. Now, we need to check whether databricks and codespace has been connected by typing following code in terminal:
 
-databricks clusters list --output JSON | jq
-databricks fs ls dbfs:/
-databricks jobs list --output JSON | jq
+### databricks clusters list --output JSON | jq
+### databricks fs ls dbfs:/
+### databricks jobs list --output JSON | jq
 
 <img width="804" alt="Screen Shot 2022-09-16 at 3 48 02 PM" src="https://user-images.githubusercontent.com/112274822/190725080-6732c08d-5bf1-4132-b98d-97a15ca578c3.png">
 
